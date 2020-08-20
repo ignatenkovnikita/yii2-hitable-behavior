@@ -27,6 +27,10 @@ $this->createTable('{{%hits}}', [
     'created_at' => $this->integer()->notNull(),
 ]);
 ```
+OR Apply migration from vendor
+```bash
+./console/yii migrate --migrationPath=vendor/usualdesigner/yii2-hitable-behavior/migrations/
+```
 
 ### Configuring
 
